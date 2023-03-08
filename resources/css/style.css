@@ -1,0 +1,150 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* General rules */
+:root{
+    --bg-main: #212d37;
+    --bg-second: #1c262f;
+    --main: #0ee951;
+    --gradient: linear-gradient(to right, #0ee951, #00dabf);
+}
+
+body{
+    background: var(--bg-main);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-second{
+    background-color: var(--bg-second);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.text-main{
+    color: var(--main);
+}
+
+.btn{
+    color: white;
+    border-radius: 0;
+    border-width: 2px;
+    padding: 10px 30px;
+    border-image-slice: 1;
+    background-image: none;
+    background: transparent;
+    border-image-source: var(--gradient);
+    box-shadow: 5px 5px 0px 0px var(--main);
+}
+
+.btn:hover {
+	color: white;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 10px 30px;
+	transform: translate(5px, 5px);
+}
+
+.btn-secondary{
+    color: white;
+    border-width: 2px;
+    padding: 10px 30px;
+    border-image-slice: 1;
+    background-image: none;
+    background: transparent;
+    border-image-source: var(--gradient);
+}
+
+.text-gradient{
+    padding: 15px 0;
+    background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+#navbar{
+    transition: all 0.6s;
+}
+
+.logo{
+    width: 250px;
+}
+
+/* Header */
+#header{
+    height: 110vh;
+    background: url('/public/images/sfondo_BT.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.h-text{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+/* Services */
+#services .card {
+	padding: 20px;
+	border-radius: 0;
+	border: 2px solid white;
+}
+
+#services .card:hover {
+	border: 10px solid;
+	transform: scale(1.01);
+	border-image-slice: 1;
+	border-width: 2px;
+	border-image-source: var(--gradient);
+	box-shadow: 5px 5px 0px 0px #0ee951;
+}
+
+/* Plans */
+#plans .card {
+    padding: 20px;
+    border: 2px solid white;
+}
+
+/* Testimonials */
+/*Swiper*/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+}
+
+.testimonial-card{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: var(--gradient);
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Bottom */
+.bottom{
+    background-color: black;
+}
