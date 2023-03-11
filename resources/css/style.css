@@ -153,7 +153,7 @@ h1,h2,h3,h4,h5,h6{
 /*** RESPONSIVE DESIGN ***/
 @media screen and (max-width: 420px){
     #header{
-        height: 70vh;
+        height: 100vh;
     }
     .h-text{
         font-size: 2rem;

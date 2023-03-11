@@ -5,13 +5,16 @@ window.addEventListener('scroll', ()=>{
   let scrolled= window.scrollY;
   let deviceWidth= window.innerWidth;
 
-  if(scrolled > 0){
-    navbar.classList.add('bg-second');
-  }else{
-    navbar.classList.remove('bg-second');
-    if (deviceWidth < 720) {
+  switch (true) {
+    case scrolled > 0 && deviceWidth > 720:
       navbar.classList.add('bg-second');
-    }
+      break;
+    case scrolled = 0 && deviceWidth > 720:
+      navbar.classList.remove('bg-second');
+      break;
+    case deviceWidth < 720:
+      navbar.classList.add('bg-second');
+      break;
   }
 })
 
