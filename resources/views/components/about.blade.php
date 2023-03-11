@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-8 col-12" data-aos="fade-right" data-aos-duration="1500">
-                <p>ABOUT US</p>
+                <p class="mt-5">ABOUT US</p>
                 <h1 class="h-text">
                     We are top internet<br>
                     service company
