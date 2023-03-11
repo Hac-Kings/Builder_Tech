@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 /* Header */
 #header{
     height: 110vh;
-    background: url('/public/images/sfondo_BT.png');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url('/public/images/sfondo_BT.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -147,4 +147,21 @@ h1,h2,h3,h4,h5,h6{
 /* Bottom */
 .bottom{
     background-color: black;
+}
+
+
+/*** RESPONSIVE DESIGN ***/
+@media screen and (max-width: 420px){
+    #header{
+        height: 70vh;
+    }
+    .h-text{
+        font-size: 2rem;
+    }
+    .h-text-header{
+        margin-top: 2rem;
+    }
+    .text-header{
+        width: 80% !important;
+    }
 }

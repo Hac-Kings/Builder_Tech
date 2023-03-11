@@ -1,4 +1,4 @@
-<section id="about" class="py-5 d-flex align-items-center vh-100">
+<section id="about" class="py-5 d-flex align-items-center vh-100 mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-8 col-12" data-aos="fade-right" data-aos-duration="1500">

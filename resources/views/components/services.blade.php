@@ -1,4 +1,4 @@
-<section id="services" class="bg-second py-5 d-flex align-items-center">
+<section id="services" class="bg-second py-5 d-flex align-items-center mt-5">
     <div class="container">
         <div class="text-center pb-4">
             <p>OUR SERVICES</p>

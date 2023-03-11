@@ -24,7 +24,7 @@
         <div class="container d-flex justify-content-between">
             <div>
                 <p>Copyright © BuilderTech srl</p><br>
-                <p>Created by: <span class="text-gradient">GQT Agency</span> </p>
+                <p>Created by: <span class="text-gradient">Giancarlo Quin Tito</span> </p>
             </div>
             <div>
                 <i class="fab fa-cc-visa fa-lg p-1"></i>
