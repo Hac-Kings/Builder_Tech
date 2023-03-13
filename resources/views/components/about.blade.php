@@ -6,7 +6,8 @@
                 <h1 class="h-text">
                     Connessioni fibra ottica senza limiti
                 </h1>
-                <p class="py-2">La missione di Builder Tech è di offrire connessioni in fibra ottica di alta qualità e affidabili per le case e le attività commerciali, inclusi quelli nelle zone più remote, portando internet a chiunque ne abbia bisogno. Vogliamo fornire soluzioni personalizzate ai nostri clienti, garantendo un servizio clienti eccezionale e un supporto tecnico professionale.</p>
+                <p class="py-2">La missione di Builder Tech è di offrire connessioni in fibra ottica di alta qualità e affidabili per le case e le attività commerciali, inclusi quelli nelle zone più remote, portando internet a chiunque ne abbia bisogno.</p>
+                <p class="py-2">Vogliamo fornire soluzioni personalizzate ai nostri clienti, garantendo un servizio clienti eccezionale e un supporto tecnico professionale.</p>
                 <p class="py-2">La nostra missione è rendere il mondo sempre più connesso, eliminando i limiti tecnologici e migliorando la vita delle persone attraverso la tecnologia.</p>
                 <!-- <div class="my-3">
                     <a href="#" class="btn">Learn More</a>
