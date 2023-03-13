@@ -1,9 +1,10 @@
 <section id="services" class="bg-second py-5 d-flex align-items-center mt-5">
     <div class="container">
         <div class="text-center pb-4">
-            <p>OUR SERVICES</p>
-            <h2 class="py-2">Explore unlimited possibilities</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+            <p>I NOSTRI SERVIZI</p>
+            <h2 class="py-2">Abbiamo la soluzione per te</h2>
+            <p>Se stai cercando una connessione in fibra ottica veloce e affidabile, Builder Tech è la scelta giusta per te! Offriamo servizi personalizzati a prezzi competitivi, garantendo la massima velocità e affidabilità della connessione, ovunque tu sia.</p>
+            <p>Non importa se sei un privato o un'azienda, Builder Tech ha la soluzione giusta per le tue esigenze di connessione. Unisciti a noi per rimanere sempre connesso e produttivo!</p>
         </div>
         <div class="row gy-4 py-2" data-aos="zoom-in" data-aos-duration="1500">
             <div class="col-lg-4">

@@ -2,16 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-8 col-12" data-aos="fade-right" data-aos-duration="1500">
-                <p class="mt-5">ABOUT US</p>
+                <p class="mt-5">La Nostra Missione</p>
                 <h1 class="h-text">
-                    We are top internet<br>
-                    service company
+                    Connessioni fibra ottica senza limiti
                 </h1>
-                <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
-                <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
-                <div class="my-3">
+                <p class="py-2">La missione di Builder Tech è di offrire connessioni in fibra ottica di alta qualità e affidabili per le case e le attività commerciali, inclusi quelli nelle zone più remote, portando internet a chiunque ne abbia bisogno. Vogliamo fornire soluzioni personalizzate ai nostri clienti, garantendo un servizio clienti eccezionale e un supporto tecnico professionale.</p>
+                <p class="py-2">La nostra missione è rendere il mondo sempre più connesso, eliminando i limiti tecnologici e migliorando la vita delle persone attraverso la tecnologia.</p>
+                <!-- <div class="my-3">
                     <a href="#" class="btn">Learn More</a>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-5 col-md-8 col-12" data-aos="fade-down" data-aos-duration="1500">
                 <img src="{{asset('./images/about.jpg')}}" alt="" class="img-fluid">

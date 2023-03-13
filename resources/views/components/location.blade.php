@@ -6,8 +6,8 @@
                     <i class="far fa-map fa-3x text-gradient"></i>
                 </div>
                 <div class="ms-2">
-                    <h6>ADDRESS</h6>
-                    <p>Teuku Umar ST. 1919</p>
+                    <h6>INDIRIZZO</h6>
+                    <p>Via Cimarosa 5, 20096 Pioltello, MI</p>
                 </div>
             </div>
             <div class="col-lg-3 d-flex align-items-center">
@@ -15,7 +15,7 @@
                     <i class="fas fa-mobile-alt fa-3x text-gradient"></i>
                 </div>
                 <div class="ms-2">
-                    <h6>CALL FOR QUERY</h6>
+                    <h6>CHIAMACI</h6>
                     <p>800 265 216 2020</p>
                 </div>
             </div>
@@ -24,8 +24,8 @@
                     <i class="far fa-envelope fa-3x text-gradient"></i>
                 </div>
                 <div class="ms-2">
-                    <h6>SEND US MESSAGE</h6>
-                    <p>infodemofile@example.com</p>
+                    <h6>INVIACI UN MESSAGGIO</h6>
+                    <p>assistenza@buildertech.it</p>
                 </div>
             </div>
             <div class="col-lg-3 d-flex align-items-center">
@@ -33,7 +33,7 @@
                     <i class="far fa-clock fa-3x text-gradient"></i>
                 </div>
                 <div class="ms-2">
-                    <h6>OPENING HOURS</h6>
+                    <h6>I NOSTRI ORARI</h6>
                     <p>09:00 AM - 18:00 PM</p>
                 </div>
             </div>

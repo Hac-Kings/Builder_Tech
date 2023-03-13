@@ -16,21 +16,14 @@
     <div class="min-vh-100">
         {{$slot}}
     </div>
-    <x-newsletter />
     <x-contacts />
     <x-location />
     <x-footer />
     <div class="bottom py-2 text-light">
-        <div class="container d-flex justify-content-between">
+        <div class="container">
             <div>
                 <p>Copyright © BuilderTech srl</p><br>
                 <p>Created by: <span class="text-gradient">Giancarlo Quin Tito</span> </p>
-            </div>
-            <div>
-                <i class="fab fa-cc-visa fa-lg p-1"></i>
-                <i class="fab fa-cc-mastercard fa-lg p-1"></i>
-                <i class="fab fa-cc-paypal fa-lg p-1"></i>
-                <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
             </div>
         </div> <!-- end of container -->
     </div>
