@@ -1,5 +1,6 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('swiper/css/bundle');
 
 /* General rules */
 :root{
@@ -69,6 +70,10 @@ h1,h2,h3,h4,h5,h6{
     -webkit-text-fill-color: transparent;
 }
 
+#header, #about{
+    height: 110vh;
+}
+
 /* Navbar */
 #navbar{
     transition: all 0.6s;
@@ -86,7 +91,6 @@ h1,h2,h3,h4,h5,h6{
 
 /* Header */
 #header{
-    height: 110vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url('/public/images/sfondo_BT.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,7 +126,7 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid white;
 }
 
-/* Testimonials */
+/* OUR TEAM */
 /*Swiper*/
 .swiper {
     width: 100%;
@@ -131,23 +135,37 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .swiper-slide {
+    background: var(--gradient);
     background-position: center;
     background-size: cover;
     width: 300px;
     height: auto;
 }
 
-.testimonial-card{
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 3px;
-    border-image-source: var(--gradient);
+/* .swiper-slide img {
+    display: block;
+    width: 100%;
+} */
+
+.team-item .btn-team{
+    color: white;
+    background: var(--bg-second);
+    text-decoration: none;
+    box-shadow: 0 0 30px rgb(0,0,0 /15%);
 }
 
-.avatar{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.btn-square, .btn-sm-square, .btn-lg-square{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.btn-square{
+    width: 38px;
+    height: 38px;
 }
 
 /* Bottom */
@@ -157,9 +175,12 @@ h1,h2,h3,h4,h5,h6{
 
 
 /*** RESPONSIVE DESIGN ***/
-@media screen and (max-width: 420px){
+@media screen and (max-width: 1024px){
     #header{
         height: 100vh;
+    }
+    #about, #services{
+        height: 100%;
     }
     .h-text{
         font-size: 2rem;

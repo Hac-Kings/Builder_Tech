@@ -10,12 +10,12 @@
           <a class="nav-link active text-white" aria-current="page" href="{{route('homepage')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Servizi</a>
+          <a class="nav-link text-white" href="#services">Servizi</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="#">Soluzioni per le aziende</a>
+            <a class="nav-link text-white" href="#about">Su Di Noi</a>
         </li>
-        <li class="nav-item dropdown">
+        {{-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Su di noi
           </a>
@@ -23,9 +23,9 @@
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
           </ul>
-        </li>
+        </li> --}}
         <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contatti</a>
+            <a class="nav-link text-white" href="#contacts">Contatti</a>
         </li>
       </ul>
     </div>

@@ -4,12 +4,12 @@
         <p class="w-50 py-3 text-header">Connetti il tuo mondo alla velocità della luce con la fibra ottica di qualità e un'esperienza di connessione senza precedenti - <span class="fw-bold">perché noi lo facciamo meglio.</span></p>
         <div class="d-flex align-items-center">
             <p class="p-2"><i class="fas fa-laptop-house fa-lg text-main"></i></p>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Connessione ultra veloce</p>
         </div>
         <div class="d-flex align-items-center">
             <p class="p-2"><i class="fas fa-wifi fa-lg text-main"></i></p>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Copertura ampia e stabile</p>
         </div>
-        <div class="my-3"><a href="#" class="btn">View Plans</a></div>
+        <div class="my-3"><a href="#services" class="btn">I Nostri Servizi</a></div>
     </div>
 </div>

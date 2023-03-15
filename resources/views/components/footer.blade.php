@@ -1,11 +1,12 @@
 <section id="footer" class="bg-second">
     <div class="container">
-        <div class="row" data-aos="fade-right" data-aos-duration="1500">
-            <div class="col-lg-3 py-4 md-5">
+        <div class="row justify-content-beetween" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-lg-6 py-4 py-md-5">
                 <div class="d-flex align-items-center">
                     <img src="{{asset('/images/logo_BT_white.png')}}" class="logo" alt="">
                 </div>
-                <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.</p>
+                <p class="py-2">Builder Tech è un'azienda specializzata nella fornitura di servizi in fibra ottica.</p>
+                <p>Con un servizio clienti eccellente e un'attenzione costante all'innovazione tecnologica, Builder Tech è il partner ideale per una connessione in fibra ottica di massima qualità.</p>
                 <div class="d-flex">
                     <div class="me-3">
                         <a href="#" class="text-white">
@@ -24,28 +25,24 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 py-4 py-md-5">
+            <div class="col-lg-6 py-4 py-md-5 d-lg-flex flex-column align-items-center">
                 <div>
-                    <h4 class="py-2">Quick Links</h4>
+                    <h4 class="py-2">Navigazione</h4>
                     <div class="d-flex align-items-center py-2">
-                        <i class="fas fa-caret-right"></i>
-                        <a href="#about" class="text-white text-decoration-none"><p class="ms-3">About</p></a>
+                        <a href="#about" class="text-white"><p>Su Di Noi</p></a>
                     </div>
                     <div class="d-flex align-items-center py-2">
-                        <i class="fas fa-caret-right"></i>
-                        <a href="#" class="text-white text-decoration-none"><p class="ms-3">Services</p></a>
+                        <a href="#services" class="text-white"><p>Servizi</p></a>
                     </div>
                     <div class="d-flex align-items-center py-2">
-                        <i class="fas fa-caret-right"></i>
-                        <a href="#" class="text-white text-decoration-none"><p class="ms-3">Plans</p></a>
+                        <a href="#team" class="text-white"><p>La Nostra Squadra</p></a>
                     </div>
                     <div class="d-flex align-items-center py-2">
-                        <i class="fas fa-caret-right"></i>
-                        <a href="#" class="text-white text-decoration-none"><p class="ms-3">Contact</p></a>
+                        <a href="#contacts" class="text-white"><p>Contattaci</p></a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 py-4 py-md-5">
+            <!-- <div class="col-lg-4 py-4 py-md-5">
                 <div>
                     <h4 class="py-2">Useful Links</h4>
                     <div class="d-flex align-items-center py-2">
@@ -66,19 +63,7 @@
                         <a href="#your-link" class="text-white text-decoration-none"><p class="ms-3">FAQ</p></a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 py-4 py-md-5">
-                <div class="d-flex align-items-center">
-                    <h4>Newsletter</h4>
-                </div>
-                <p class="py-3 para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.</p>
-                <div class="d-flex align-items-center">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
-                        <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

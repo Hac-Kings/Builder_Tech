@@ -3,4 +3,5 @@
     <x-information />
     <x-about />
     <x-services />
+    <x-team />
 </x-layout>

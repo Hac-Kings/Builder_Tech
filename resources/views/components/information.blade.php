@@ -1,4 +1,4 @@
-<section id="information" class="mb-5">
+<section id="information">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-4 text-center bg-second p-5" data-aos="zoom-in" data-aos-duration="1500">

@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down" data-aos-duration="1500">
-                <img src="{{asset('/images/contact.jpg')}}" alt="" class="img-fluid d-none d-lg-block">
+                <img src="{{asset('/images/assistenza.png')}}" alt="" class="img-fluid d-none d-lg-block">
             </div>
         </div>
     </div>
