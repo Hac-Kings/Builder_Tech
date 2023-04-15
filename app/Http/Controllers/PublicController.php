@@ -23,4 +23,6 @@ class PublicController extends Controller
 
         return redirect(route('homepage'))->with('message', 'La tua email è stata inviata con successo');
     }
+
+    
 }

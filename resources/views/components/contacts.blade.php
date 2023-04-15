@@ -23,7 +23,7 @@
                             <div class="mb-3">
                                 <textarea name="message" class="form-control" id="" cols="30" rows="10" placeholder="Messaggio"></textarea>
                             </div>
-                            <button type="submit" class="btn">Invia</button>
+                            <button type="submit" class="btn-custom">Invia</button>
                         </form>
                     </div>
                 </div>

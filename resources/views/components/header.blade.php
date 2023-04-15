@@ -10,6 +10,6 @@
             <p class="p-2"><i class="fas fa-wifi fa-lg text-main"></i></p>
             <p>Copertura ampia e stabile</p>
         </div>
-        <div class="my-3"><a href="#services" class="btn">I Nostri Servizi</a></div>
+        <div class="my-3"><a href="#services" class="btn-custom">I Nostri Servizi</a></div>
     </div>
 </div>

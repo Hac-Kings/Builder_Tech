@@ -13,20 +13,40 @@
           <a class="nav-link text-white" href="#services">Servizi</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" href="#about">Su Di Noi</a>
+            <a class="nav-link text-white" href="#about">Nostra missione</a>
         </li>
-        {{-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Su di noi
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-          </ul>
-        </li> --}}
+        <li class="nav-item">
+          <a class="nav-link text-white" href="{{route('job.create')}}">Aggiungi un'offerta di lavoro</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link text-white" href="#contacts">Contatti</a>
         </li>
+
+        @auth
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Benvenuto {{Auth::user()->name}}
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profilo</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#" onclick="event.preventDefault(); document.querySelector('#form-logout').submit();">Log Out</a></li>
+            <form action="{{route('logout')}}" method="post" id="form-logout">@csrf</form>
+          </ul>
+        </li>
+        @endauth
+
+        @guest
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Benvenuto Ospite
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="{{route('register')}}">Registrati</a></li>
+            <li><a class="dropdown-item" href="{{route('login')}}">Accedi</a></li>
+          </ul>
+        </li>
+        @endguest
       </ul>
     </div>
   </div>
